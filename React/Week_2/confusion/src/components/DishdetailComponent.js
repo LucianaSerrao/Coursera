@@ -54,7 +54,7 @@ function RenderComments({comments}) {
 }
     
     
-    const Dishdetail = (props) => {
+    const DishDetail = (props) => {
         if (props.dish != null) {
             return(
                 <div className="row">
@@ -71,4 +71,4 @@ function RenderComments({comments}) {
         }         
     }
 
-export default Dishdetail;
+export default DishDetail;
