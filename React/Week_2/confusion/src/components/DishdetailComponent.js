@@ -35,10 +35,10 @@ class Dishdetail extends Component {
                         &nbsp;
                         {new Intl.DateTimeFormat('pt-BR', {
                             day: '2-digit',
-                            month: 'long',
+                            month: 'short',
                             year: 'numeric'
 
-                        }).format(new Date(comment.date))}
+                        }).format(new Date(Date.parse(comment.date)))}
                         </p>
                     </li>
                 )
