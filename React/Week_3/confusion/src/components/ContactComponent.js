@@ -8,8 +8,8 @@ class Contact extends Component {
         super(props);
 
         this.state = {
-            firstName: '',
-            lastName: '',
+            firstname: '',
+            lastname: '',
             telnum: '',
             email: '',
             agree: false,
